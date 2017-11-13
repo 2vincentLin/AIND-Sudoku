@@ -3,11 +3,17 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: 
+    1. generate all boxes with possibilities== 2
+    2. go though all its peers to see if any box has the same value
+    3. check where is the peers (rows, cols or square)
+    4. go through every element in the unit except itself and the same value peer
+        and replace
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: 
+I simply add diagonal units to unitlist and leave other codes remain the same.
 
 ### Install
 
